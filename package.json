@@ -16,6 +16,7 @@
     "lerna": "^3.19.0"
   },
   "files": [
-    "packages"
+    "packages/client/build",
+    "packages/utils/build"
   ]
 }
