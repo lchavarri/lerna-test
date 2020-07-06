@@ -9,24 +9,13 @@
   "dependencies": {},
   "author": "",
   "license": "ISC",
-  "publishConfig": {
-    "directory": "build"
-  },
   "files": [
-    "build/*.d.ts",
-    "build/*.js.map",
-    "build/*.js",
-    "build/*.json"
+    "lib/*.d.ts",
+    "lib/*.js.map",
+    "lib/*.js",
+    "lib/*.json"
   ],
   "sideEffects": false,
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
-  "directories": {
-    "build": "build/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com/lchavarri/lerna-test.git",
-    "directory": "packages/utils"
-  }
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts"
 }

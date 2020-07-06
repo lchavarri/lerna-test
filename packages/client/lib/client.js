@@ -1,6 +1,6 @@
 import { logItems } from "@lerna-test/utils";
-export const extendedLog = () => {
-    const items = [
+export var extendedLog = function () {
+    var items = [
         { id: "ABC", count: 3 },
         { id: "DEF", count: 10 },
     ];
