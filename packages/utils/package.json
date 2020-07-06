@@ -2,7 +2,6 @@
   "name": "@lerna-test/utils",
   "version": "1.0.0",
   "description": "",
-  "main": "/build/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,22 @@
   "license": "ISC",
   "publishConfig": {
     "directory": "build"
+  },
+  "files": [
+    "build/*.d.ts",
+    "build/*.js.map",
+    "build/*.js",
+    "build/*.json"
+  ],
+  "sideEffects": false,
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "directories": {
+    "build": "build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/lchavarri/lerna-test.git",
+    "directory": "packages/utils"
   }
 }
